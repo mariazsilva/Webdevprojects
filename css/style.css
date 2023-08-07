@@ -1,0 +1,78 @@
+
+.gradient-background {
+  background: linear-gradient(900deg, #557153, #7D8F69, #A9AF7E, #F4F2DE);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.btn-light {
+  background-color: #EEEEEE;
+  color: black;
+}
+
+.btn-outline-light {
+  background-color: #EEEEEE;
+  color: black;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 220px;
+  width: 240px;
+  border-radius: 50%;
+  margin: 15px;
+
+}
+/*Chihuahua */.card-header { 
+  background-color: #F5F5F5;
+  color: #000;
+}
+
+.btn-outline-primary {
+  background-color: #A9AF7E; 
+  border-color: black; 
+  color: white;
+}
+
+/*Labrador*/ .btn-primary {
+    background-color: #A9AF7E; 
+    border-color: black; 
+    color: white;
+}
+
+/*Mastiff*/ .bg-primary {
+  background-color: #F5F5F5;
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #A9AF7E; 
+  border-color: black; 
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #000;
+  color: white;
+}
+
+#footer {
+  background-color: #F5F5F5;
+}
